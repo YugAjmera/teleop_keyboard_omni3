@@ -9,7 +9,7 @@ from std_msgs.msg import Float64
 import sys, select, termios, tty
 
 msg = """
-Reading from the keyboard  and Publishing to Twist!
+Reading from the keyboard !
 ---------------------------
 Moving around:
    u    i    o
@@ -22,8 +22,6 @@ For Holonomic mode (strafing), hold down the shift key:
    J    K    L
    M    <    >
 
-t : up (+z)
-b : down (-z)
 
 anything else : stop
 
