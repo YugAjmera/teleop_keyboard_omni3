@@ -1,7 +1,7 @@
 # teleop_twist_keyboard_omni3
 Generic Keyboard Teleop for 3 Wheeled Omnidirectional robots
 
-#Installation
+# Installation
 1. `cd ~/catkin_ws/src`
 2. `git clone https://github.com/YugAjmera/teleop_twist_keyboard_omni3`
 3. `cd ~/catkin_ws`
@@ -16,6 +16,8 @@ rosrun teleop_twist_keyboard_omni3 teleop_twist_keyboard_omni3.py
 ```
 
 # Usage
+![](instr%20.png)
+
 ```
 Reading from the keyboard  and Publishing to Twist!
 ---------------------------
