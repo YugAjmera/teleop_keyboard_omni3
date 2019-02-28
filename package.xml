@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>teleop_twist_keyboard_omni3</name>
+  <name>teleop_keyboard_omni3</name>
   <version>0.6.2</version>
   <description>Generic keyboard teleop for 3 wheeled omnidirectional robots.</description>
 
@@ -13,6 +13,6 @@
   <author>Yug Ajmera</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
   <run_depend>rospy</run_depend>
 </package>
