@@ -16,7 +16,7 @@ rosrun teleop_twist_keyboard_omni3 teleop_twist_keyboard_omni3.py
 ```
 
 # Usage
-![](instr%20.png)
+![](instr.png)
 
 ```
 Reading from the keyboard  and Publishing to Twist!
