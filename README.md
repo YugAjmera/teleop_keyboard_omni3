@@ -12,7 +12,7 @@ Generic Keyboard Teleop for 3 Wheeled Omnidirectional robots
 # Launch
 Run.
 ```
-rosrun teleop_twist_keyboard_omni3 teleop_twist_keyboard_omni3.py 
+rosrun teleop_keyboard_omni3 teleop_keyboard_omni3.py 
 ```
 
 # Usage
