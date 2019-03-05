@@ -3,7 +3,7 @@ Generic Keyboard Teleop for 3 Wheeled Omnidirectional robots
 
 # Installation
 1. `cd ~/catkin_ws/src`
-2. `git clone https://github.com/YugAjmera/teleop_twist_keyboard_omni3`
+2. `git clone https://github.com/YugAjmera/teleop_keyboard_omni3`
 3. `cd ~/catkin_ws`
 4. `catkin_make`
 5. `source ~/catkin_ws/devel/setup.bash`
