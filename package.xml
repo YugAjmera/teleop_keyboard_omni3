@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>teleop_keyboard_omni3</name>
-  <version>1.0</version>
+  <version>0.0.0</version>
   <description>Generic keyboard teleop for 3 wheeled omnidirectional robots.</description>
 
   <maintainer email="yugajmera@gmail.com">YugAjmera</maintainer>
