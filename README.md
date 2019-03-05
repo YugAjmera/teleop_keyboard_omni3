@@ -1,7 +1,7 @@
 # teleop_keyboard_omni3
 Generic Keyboard Teleop for 3 Wheeled Omnidirectional robots
 
-# Installation
+## Installation
 1. `cd ~/catkin_ws/src`
 2. `git clone https://github.com/YugAjmera/teleop_keyboard_omni3`
 3. `cd ~/catkin_ws`
@@ -9,14 +9,13 @@ Generic Keyboard Teleop for 3 Wheeled Omnidirectional robots
 5. `source ~/catkin_ws/devel/setup.bash`
 6. `source ~/.bashrc`
 
-# Launch
+## Launch
 Run.
 ```
 rosrun teleop_keyboard_omni3 teleop_keyboard_omni3.py 
 ```
 
-# Usage
-![](instr.png)
+## Usage
 
 ```
 Reading from the keyboard !
