@@ -1,4 +1,4 @@
-# teleop_twist_keyboard_omni3
+# teleop_keyboard_omni3
 Generic Keyboard Teleop for 3 Wheeled Omnidirectional robots
 
 # Installation
