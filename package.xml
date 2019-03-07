@@ -4,13 +4,13 @@
   <version>0.0.0</version>
   <description>Generic keyboard teleop for 3 wheeled omnidirectional robots.</description>
 
-  <maintainer email="yugajmera@gmail.com">YugAjmera</maintainer>
+  <maintainer email="yugajmera@gmail.com">Yug Ajmera</maintainer>
 
-  <license>TODO</license>
+  <license>BSD</license>
 
   <url type="website">http://wiki.ros.org/teleop_keyboard_omni3</url>
 
-  <author>YugAjmera</author>
+  <author>Yug Ajmera</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>std_msgs</run_depend>
