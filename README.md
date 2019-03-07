@@ -11,6 +11,8 @@ For package details : [ROS Wiki](http://wiki.ros.org/teleop_keyboard_omni3)
 5. `source ~/catkin_ws/devel/setup.bash`
 6. `source ~/.bashrc`
 
+Change the topic names in this [scipt](teleop_keyboard_omni3.py) according to your robot.
+
 ## Launch
 Run.
 ```
