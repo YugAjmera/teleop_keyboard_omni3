@@ -1,4 +1,3 @@
-# This script was written by Yug Ajmera.
 #!/usr/bin/env python
 
 from __future__ import print_function
@@ -69,9 +68,9 @@ if __name__=="__main__":
     settings = termios.tcgetattr(sys.stdin)
 
     rospy.init_node('vel_Publisher')
-    pub = rospy.Publisher('/robot/back_joint_velocity_controller/command', Float64, queue_size=1)
-    publ = rospy.Publisher('/robot/left_joint_velocity_controller/command', Float64, queue_size=1)
-    pubr = rospy.Publisher('/robot/right_joint_velocity_controller/command', Float64, queue_size=1)
+    pub = rospy.Publisher('/open_base/back_joint_velocity_controller/command', Float64, queue_size=1)
+    publ = rospy.Publisher('/open_base/left_joint_velocity_controller/command', Float64, queue_size=1)
+    pubr = rospy.Publisher('/open_base/right_joint_velocity_controller/command', Float64, queue_size=1)
 
 
     speed = 1.0
