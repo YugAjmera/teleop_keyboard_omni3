@@ -31,22 +31,22 @@ CTRL-C to quit
 """
 
 moveBindings = {
-        'i':(0,-1,1),
-        'o':(1,-1,0),
+        'i':(-1,0,1),
+        'o':(-1,1,0),
         'j':(1,1,1),
         'l':(-1,-1,-1),
         'u':(-1,0,1),
-        ',':(0,1,-1),
-        '.':(1,0,-1),
-        'm':(-1,1,0),  
-        'O':(1,-1,0),
-        'I':(0,-1,1),
-        'J':(-2,1,1),
-        'L':(2,-1,-1),
-        'U':(-1,0,1),
-        '<':(0,1,-1),
-        '>':(1,0,-1),
-        'M':(-1,1,0),  
+        ',':(1,0,-1),
+        '.':(0,1,-1),
+        'm':(1,-1,0),  
+        'O':(-1,1,0),
+        'I':(-1,0,1),
+        'J':(1,-2,1),
+        'L':(-1,2,-1),
+        'U':(0,-1,1),
+        '<':(1,0,-1),
+        '>':(0,1,-1),
+        'M':(1,-1,0),  
     }
 
 speedBindings={
@@ -68,8 +68,8 @@ if __name__=="__main__":
     settings = termios.tcgetattr(sys.stdin)
 
     rospy.init_node('vel_Publisher')
-    pub = rospy.Publisher('/open_base/back_joint_velocity_controller/command', Float64, queue_size=1)
     publ = rospy.Publisher('/open_base/left_joint_velocity_controller/command', Float64, queue_size=1)
+    pubb = rospy.Publisher('/open_base/back_joint_velocity_controller/command', Float64, queue_size=1)
     pubr = rospy.Publisher('/open_base/right_joint_velocity_controller/command', Float64, queue_size=1)
 
 
@@ -103,32 +103,32 @@ if __name__=="__main__":
                 if (key == '\x03'):
                     break
 
-            vel = Float64()
-	    vell = Float64()
+            vell = Float64()
+	    velb = Float64()
 	    velr = Float64()
 	
-	    vel = x*speed
-	    vell = y*speed
+	    vell = x*speed
+	    velb = y*speed
 	    velr = z*speed
 
-	    pub.publish(vel)
 	    publ.publish(vell)
+	    pubb.publish(velb)
 	    pubr.publish(velr)
 
     except Exception as e:
         print(e)
 
     finally:
-        vel = Float64()
-	vell = Float64()
+        vell = Float64()
+	velb = Float64()
 	velr = Float64()
 	
-	vel = 0.0
 	vell = 0.0
+	velb = 0.0
 	velr = 0.0
 
-	pub.publish(vel)
-	publ.publish(vell)
+	pub.publish(vell)
+	publ.publish(velb)
 	pubr.publish(velr)
 
         termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
