@@ -43,3 +43,4 @@ q/z : increase/decrease max speeds by 10%
 CTRL-C to quit
 ```
 
+Tested on : [omni3ros_pkg](https://github.com/YugAjmera/omni3ros_pkg)
