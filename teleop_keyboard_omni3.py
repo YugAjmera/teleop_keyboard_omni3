@@ -127,7 +127,7 @@ if __name__=="__main__":
 	velb = 0.0
 	velr = 0.0
 
-	pub.publish(vell)
+	pubb.publish(vell)
 	publ.publish(velb)
 	pubr.publish(velr)
 
