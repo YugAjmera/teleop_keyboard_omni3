@@ -1,9 +1,11 @@
 # teleop_keyboard_omni3
 Generic Keyboard Teleop for 3 Wheeled Omnidirectional robots
 
-For package details : [ROS Wiki](http://wiki.ros.org/teleop_keyboard_omni3)
+- For package details : [ROS Wiki](http://wiki.ros.org/teleop_keyboard_omni3)
 
-Motion Analysis of 3 wheeled omnidirectional robot (Theory involved in writing the code): [Blog post](https://yainnoware.blogspot.com/2019/03/three-wheeled-holonomic-robot-theory.html)
+- Motion Analysis of 3 wheeled omnidirectional robot (Theory involved in writing the code): [Blog post](https://yainnoware.blogspot.com/2019/03/three-wheeled-holonomic-robot-theory.html)
+
+- Simulated the three-wheeled robot on Gazebo to test the code. Package Link : [omni3ros_pkg](https://github.com/YugAjmera/omni3ros_pkg)
 
 ## Installation
 1. `cd ~/catkin_ws/src`
@@ -44,8 +46,3 @@ q/z : increase/decrease max speeds by 10%
 
 CTRL-C to quit
 ```
-
-
-Simulated the three-wheeled robot on Gazebo to test the code.
-
-Package Link : [omni3ros_pkg](https://github.com/YugAjmera/omni3ros_pkg)
