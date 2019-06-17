@@ -46,5 +46,8 @@ CTRL-C to quit
 ```
 
 Simulated the three-wheeled robot on Gazebo to test the code.
+
 Package Link : [omni3ros_pkg](https://github.com/YugAjmera/omni3ros_pkg)
+
+![](images/omni.png)
 
