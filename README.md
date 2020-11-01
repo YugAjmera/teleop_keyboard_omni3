@@ -46,3 +46,16 @@ q/z : increase/decrease max speeds by 10%
 
 CTRL-C to quit
 ```
+
+
+If our work is helpful to you, please kindly cite our paper as:
+```
+@inproceedings{mishra2019ego,
+  title={Ego-Centric framework for a three-wheel omni-drive Telepresence robot},
+  author={Mishra, Ruchik and Ajmera, Yug and Mishra, Nikhil and Javed, Arshad},
+  booktitle={2019 IEEE International Conference on Advanced Robotics and its Social Impacts (ARSO)},
+  pages={281--286},
+  year={2019},
+  organization={IEEE}
+}
+```
